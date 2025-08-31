@@ -1,0 +1,37 @@
+# 爱情记录博客配置
+title: "我们的爱情日记"
+description: "记录我们爱情旅程的点点滴滴"
+author: "我们"
+email: "love@example.com"
+baseurl: ""
+url: "https://yourusername.github.io"
+
+# 构建配置
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# 分页
+paginate: 5
+paginate_path: "/page:num/"
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 主题设置
+theme_color: "#ff6b9d"
+love_start_date: "2023-01-01"  # 恋爱开始日期
+
+# 社交媒体
+social:
+  github: yourusername
+  email: love@example.com
+
+# 自定义变量
+custom:
+  couple_names: "小明 & 小红"
+  anniversary: "2023-01-01"
+  location: "北京"

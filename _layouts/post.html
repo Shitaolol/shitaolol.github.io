@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+<article class="post">
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <div class="post-meta">
+            <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">
+                <i class="fas fa-calendar"></i> {{ page.date | date: "%Y年%m月%d日" }}
+            </time>
+            {% if page.category %}
+            <span class="post-category">
+                <i class="fas fa-folder"></i> {{ page.category }}
+            </span>
+            {% endif %}
+            {% if page.location %}
+            <span class="post-location">
+                <i class="fas fa-map-marker-alt"></i> {{ page.location }}
+            </span>
+            {% endif %}
+        </div>
+        <div class="post-tags">
+            {% for tag in page.tags %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+        </div>
+    </header>
+
+    {% if page.image %}
+    <div class="post-featured-image">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+    {% if page.gallery %}
+    <div class="post-gallery">
+        <h3>相关照片</h3>
+        <div class="gallery-grid">
+            {% for photo in page.gallery %}
+            <div class="gallery-item">
+                <img src="{{ photo.url | relative_url }}" alt="{{ photo.caption | default: page.title }}">
+                {% if photo.caption %}
+                <p class="gallery-caption">{{ photo.caption }}</p>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    <nav class="post-navigation">
+        {% if page.previous.url %}
+        <a href="{{ page.previous.url | relative_url }}" class="nav-prev">
+            <i class="fas fa-chevron-left"></i>
+            <span>{{ page.previous.title }}</span>
+        </a>
+        {% endif %}
+        
+        {% if page.next.url %}
+        <a href="{{ page.next.url | relative_url }}" class="nav-next">
+            <span>{{ page.next.title }}</span>
+            <i class="fas fa-chevron-right"></i>
+        </a>
+        {% endif %}
+    </nav>
+</article>

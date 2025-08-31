@@ -11,11 +11,8 @@ permalink: /about/
     <div class="love-story">
       <div class="story-timeline">
         <div class="story-item">
-<<<<<<< HEAD
           <div class="story-date">2025年8月3日</div>
-=======
-          <div class="story-date">2024年8月31日</div>
->>>>>>> 21ef48183dc32d6e692e48b7b2b092f605219958
+
           <div class="story-content">
             <h3>💝 初次相遇</h3>
             <p>在那个特别的日子，我们相遇了。从那一刻起，我的世界开始有了不同的色彩。</p>
@@ -44,15 +41,9 @@ permalink: /about/
         <div class="profile-avatar">
           <div class="avatar-placeholder">🤴</div>
         </div>
-<<<<<<< HEAD
         <h3>世涛</h3>
         <p class="profile-role">男朋友 & 最佳拍档</p>
         <p class="profile-desc">喜欢技术、美食和探索新事物。最大的爱好就是让小静开心。</p>
-=======
-        <h3>石涛</h3>
-        <p class="profile-role">男朋友 & 最佳拍档</p>
-        <p class="profile-desc">喜欢技术、美食和探索新事物。最大的爱好就是让她开心。</p>
->>>>>>> 21ef48183dc32d6e692e48b7b2b092f605219958
         <div class="profile-stats">
           <span>💝 爱的指数: ∞</span>
           <span>📝 已写情书: {{ site.posts | size }}封</span>
@@ -63,15 +54,9 @@ permalink: /about/
         <div class="profile-avatar">
           <div class="avatar-placeholder">👸</div>
         </div>
-<<<<<<< HEAD
         <h3>小静</h3>
         <p class="profile-role">女朋友 & 生活阳光</p>
         <p class="profile-desc">美丽、善良、充满爱心。是世涛生命中最美好的遇见。</p>
-=======
-        <h3>心爱的她</h3>
-        <p class="profile-role">女朋友 & 生活阳光</p>
-        <p class="profile-desc">美丽、善良、充满爱心。是我生命中最美好的遇见。</p>
->>>>>>> 21ef48183dc32d6e692e48b7b2b092f605219958
         <div class="profile-stats">
           <span>💖 被爱的指数: ∞</span>
           <span>😊 笑容次数: 无数</span>
@@ -88,22 +73,14 @@ permalink: /about/
         <blockquote>
           "遇见你之前，爱情只是个词；遇见你之后，它有了名字。"
         </blockquote>
-<<<<<<< HEAD
         <cite>— 世涛</cite>
-=======
-        <cite>— 石涛</cite>
->>>>>>> 21ef48183dc32d6e692e48b7b2b092f605219958
       </div>
       
       <div class="quote-card">
         <blockquote>
           "每一天醒来，看到你在我身边，这就是我想要的未来。"
         </blockquote>
-<<<<<<< HEAD
         <cite>— 世涛 & 小静</cite>
-=======
-        <cite>— 我们的心愿</cite>
->>>>>>> 21ef48183dc32d6e692e48b7b2b092f605219958
       </div>
     </div>
   </div>
@@ -356,4 +333,5 @@ permalink: /about/
     align-self: center;
   }
 }
+
 </style>

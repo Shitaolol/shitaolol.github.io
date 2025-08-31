@@ -1,0 +1,194 @@
+/* 导入浪漫样式 */
+@import url('romantic-styles.css');
+
+/* 全局字体与背景 */
+body {
+  background: linear-gradient(to bottom, #ffebee, #fff);  /* Light pink gradient */
+  font-family: 'Inter', 'Noto Sans SC', 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* 站点标题 */
+.site-title {
+  font-family: 'Lobster', cursive;  /* Romantic font */
+  color: white !important;
+  font-weight: bold;
+}
+
+/* 文章标题 */
+.post-title {
+  color: #f48fb1;  /* Light pink */
+}
+
+/* 图片样式 */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 导航栏 */
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav li {
+  margin: 0 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #e91e63;
+  font-weight: bold;
+}
+
+/* Gallery grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+/* 自定义样式补充 */
+
+/* 导航栏美化 */
+.site-header {
+  background: linear-gradient(135deg, #ff6b9d, #c084fc);
+  border-bottom: none;
+}
+
+.site-nav .page-link {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.site-nav .page-link:hover {
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* 页脚美化 */
+.site-footer {
+  background: linear-gradient(135deg, #ffeef2, #fef7ff);
+  border-top: 1px solid #ffeef2;
+  color: #718096;
+}
+
+/* 文章美化 */
+.post-list-heading {
+  color: #ff6b9d;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.post-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.post-meta {
+  color: #a0aec0;
+  font-size: 0.9rem;
+}
+
+/* 按钮美化 */
+.btn {
+  background: linear-gradient(135deg, #ff6b9d, #c084fc);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.3);
+}
+
+/* 链接美化 */
+a {
+  color: #ff6b9d;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #c084fc;
+  text-decoration: none;
+}
+
+/* 代码块美化 */
+pre {
+  background: #f8f9fa;
+  border: 1px solid #ffeef2;
+  border-radius: 10px;
+}
+
+code {
+  background: #ffeef2;
+  color: #ff6b9d;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* 表格美化 */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ffeef2;
+}
+
+table th {
+  background: linear-gradient(135deg, #ffeef2, #fef7ff);
+  color: #ff6b9d;
+  font-weight: bold;
+}
+
+/* 引用美化 */
+blockquote {
+  border-left: 4px solid #ff6b9d;
+  background: #ffeef2;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 0 10px 10px 0;
+  font-style: italic;
+  color: #4a5568;
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffeef2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #ff6b9d, #c084fc);
+  border-radius: 4px;
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+  .site-header {
+    padding: 10px 0;
+  }
+  
+  .site-title {
+    font-size: 1.5rem;
+  }
+  
+  .post-list {
+    padding: 0 15px;
+  }
+}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我们的新年约会 - 世涛和小静的甜蜜时光
-image: /assets/images/new-year-date.jpg
+image: /assets/images/photo1.jpg
 category: 约会时光
 tags: [约会, 新年, 浪漫, 回忆]
 ---
@@ -65,4 +65,5 @@ tags: [约会, 新年, 浪漫, 回忆]
   border-radius: 10px;
   transition: width 0.5s ease;
 }
+
 </style>

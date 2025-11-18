@@ -1,0 +1,9 @@
+title: 小静与世涛的恋爱日记
+description: 记录每一段甜蜜时光
+theme: minima
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: default

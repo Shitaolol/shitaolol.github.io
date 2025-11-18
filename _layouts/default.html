@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p>Powered by WST | © 2023-{{ "now" | date: "%Y" }}</p>
+  </footer>
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>

@@ -2,7 +2,7 @@
 title: 我们的第一次约会
 date: 2024-02-13
 location: 天长
-image: /assets/images/first-date/1_first-date.jpg
+image: https://free.wmhua.cn/2025/11/18/691c704705f1c.jpg
 moods: ["浪漫", "放松", "开心"]
 activities: ["天长药膳鸡", "飞驰人生", "烤羊腿"]
 ---
@@ -15,5 +15,6 @@ activities: ["天长药膳鸡", "飞驰人生", "烤羊腿"]
 ![第一次相遇](https://free.wmhua.cn/2025/11/18/691c704705f1c.jpg)
 ![飞驰人生](https://free.wmhua.cn/2025/11/18/691c6f93863b2.png))
 ![烤羊腿](https://free.wmhua.cn/2025/11/18/691c6f9abf9c2.jpg)
+
 
 

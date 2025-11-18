@@ -459,9 +459,17 @@ function initCarouselForCard(card) {
     img.style.cursor = 'pointer';
     
     // 添加点击事件，打开大图查看器
-    img.addEventListener('click', function() {
+    function handleImageClick() {
       openImageViewer(src);
-    });
+    }
+    
+    // 同时支持点击和触摸事件
+    img.addEventListener('click', handleImageClick);
+    img.addEventListener('touchstart', function(e) {
+      // 防止事件冒泡
+      e.stopPropagation();
+      handleImageClick();
+    }, { passive: true });
     
     // 添加图片加载事件处理
     img.onload = function() {

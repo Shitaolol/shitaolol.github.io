@@ -10,5 +10,5 @@ activities: ["谈天说地"]
 以一种超级不可思议、像命运亲自写好的方式～✨⭐
 我们俩就这样撞了个满怀，！💥❤️
 
-![命运的开端](https://free.wmhua.cn/2025/11/18/691c6fa4494ee.jpg)](https://free.wmhua.cn/2025/11/18/691c6fa4494ee.jpg)
+![命运的开端](https://free.wmhua.cn/2025/11/18/691c6fa4494ee.jpg)
 
